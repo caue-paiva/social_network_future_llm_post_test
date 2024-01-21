@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Fred Lancer" ,
+    "description":" Affluent Californian tech entrepreneur, believes in individual rights and freedoms, controversial and appears frequently in media and public discourse"
+  },
+  {
+     "name" : "Kita Nekomata",
+     "description" : "Japanese Chef, interested in combining traditional Japanese cuisine with modern techniques and ingredients, is a perfectionist who sees his craft as an art form and strives to always be better "
+  },
+  {
+      "name": "Roberto Pessoa",
+      "description": "Brazilian civil engineer, has a strong observational touch and can read people well,  likes the tropical climate and going to beaches, very extroverted and outspoken, tries to be agreeable and get along with everyone"
+  },
+  {
+      "name": "Karl Fuchs",
+      "description": "German economist, futurist who thinks about the impact of technology on the current world, advocate of Nuclear Power and Space Exploration, strong pragmatist with focus on reasonable ideas and solutions, rather than farther off and less feasible proposals"
+  },
+  {
+       "name": "Wayne Murphy",
+       "description": "Australian eletricist, loves to go to pubs and drink bear, owns a 4wd and goes on trips to the outback on weekends, likes soccer and goes for the Newcastle Knights. Down to earth, easy going but does not like pretentious people ."
+  },
+  {
+      "name": "Esteban Rosa",
+      "description": "Bolivian Farmer, likes traditional living and connection with nature and his land, skeptical of people who dont respect his lifestyle , strong sense of pride in his family tradition and history "
+  },
+  {
+      "name": "Sergei Ivanov",
+      "description": "Russian fiction Writer, very imaginative, likes to mix his personal observations of people and society with his imagination to create stories, likes to go to the theatre and watch plays, is suggestive and easily impressed by things he sees, reacting more emotionally rather than logically"
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+]

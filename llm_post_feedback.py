@@ -191,7 +191,7 @@ for post in tests:
                     "type": "object",
                     "properties": {
 
-                        "explanation":{
+                        "explanation": {
                             "type": "string",
                             "description": "Explanation why the decision was taken to vote on a certain way and if the context influenced you in that decision"
                         },
