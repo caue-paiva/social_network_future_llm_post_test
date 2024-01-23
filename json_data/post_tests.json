@@ -1,66 +1,58 @@
 [
    {
-      "post": "Barcelona Supercomputing Center presents Sargantana: new open-source RISC-V chip",
-      "reply": "Is this based off CVA6? That's not mentioned."
+      "id": "earthquake",
+      "post": "an earthquake happened in mexico, check out this video",
+      "replies": [
+         "wait thats footage from an earthquake from 3 years ago in Indonesia",
+         "horrible, i hope not many lives were lost "
+      ]
    },
    {
-      "post": "BrainGPT turns thoughts into text",
-      "reply": "It s crazy to me that someone has developed a technology that literally reads peoples mind fairly accurately and its just like a semi popular post on Hacker News."
-   },
-   {
-      "post": "US nuclear-fusion lab enters new era: achieving 'ignition' over and over",
-      "reply": "Can somebody explain, what exactly is ignition? If even a single helium atom is fused you have more energy than you have put into it. That does not seem impressive."
-   },
-   {
-      "post": "US nuclear-fusion lab enters new era: achieving 'ignition' over and over",
-      "reply": "Next step: achieving the actual energy break even instead of laser energy break even. That'll require improving it by an order of magnitude."
-   },
-   {
-      "post": "Suspects can refuse to provide phone passcodes to police, court rules",
-      "reply": "I can't even understand why this was even still up for debate - 5th amendment allows you to not incriminate yourself - being forced to give up your passcode is no different then being forced to give up any secrets you might have.\n                 Not sure why this hasn't been slapped down a long, long time ago."
-   },
-   {
-      "post": "Suspects can refuse to provide phone passcodes to police, court rules",
-      "reply": "Never store anything incriminating on your phone. How hard can it be. Your phone is never your friend.\n              A compact Linux device without any biometrics, telemetry, public clouds and corporate spying software is probably what you could be looking for."
-   },
-   {
-      "post": "an earthquake happened in mexico see the footage",
-      "reply": "horrible, i hope not many lives were lost "
-   },
-   {
-      "post": "an earthquake happened in mexico",
-      "reply": "wait thats footage from an earthquake from 3 years ago in Indonesia"
-   },
-   {
+      "id": "UBI",
       "post": "Universal Basic Income is essential for addressing the growing inequality and job displacement caused by automation. It's a human right for everyone to have financial security without the stigma of welfare.",
-      "reply": "While the intention behind UBI is admirable, it could disincentivize work and burden the economy. There needs to be a balance between providing security and encouraging productivity. Plus, funding UBI might require high taxes that could stifle economic growth and innovation."
+      "replies": [
+         "While the intention behind UBI is admirable, it could disincentivize work and burden the economy. There needs to be a balance between providing security and encouraging productivity. Plus, funding UBI might require high taxes that could stifle economic growth and innovation.",
+         "The concept of UBI is idealistic and doesn't take into account human nature. People value work and purpose. There's a risk that UBI could lead to a decline in the labor force participation rate, which is essential for a robust economy and for funding the very social programs we value.",
+         "Implementing UBI could actually fuel inflation, as the increase in disposable income would likely lead to higher demand for goods and services. This could raise prices, negating the very benefits UBI is supposed to provide and harming the economy in the long run."
+      ]
    },
    {
-      "post": "Universal Basic Income is essential for addressing the growing inequality and job displacement caused by automation. It's a human right for everyone to have financial security without the stigma of welfare.",
-      "reply": "The concept of UBI is idealistic and doesn't take into account human nature. People value work and purpose. There's a risk that UBI could lead to a decline in the labor force participation rate, which is essential for a robust economy and for funding the very social programs we value."
-   },
-   {
-      "post": "Universal Basic Income is essential for addressing the growing inequality and job displacement caused by automation. It's a human right for everyone to have financial security without the stigma of welfare.",
-      "reply": "Implementing UBI could actually fuel inflation, as the increase in disposable income would likely lead to higher demand for goods and services. This could raise prices, negating the very benefits UBI is supposed to provide and harming the economy in the long run."
-   },
-   {
+      "id": "facebook",
       "post": "I love facebook. I hate other big tech companies. Facebook has done far more for software than any other company in the last 15 years. They:\n\n                Pushed salaries up across the board. Many people are not aware, but facebook was a major driver behind the 500k+ senior engineering pay.\n\n                Released major open source software: PyTorch, React, GraphQL, React Native. They basically invented modern web development.\n\n                Facebook is basically the only game in town when it comes to open source. Whatsmore, Mark Zuckerberg should be more widely applauded. I know his open source ai strategy has capitalist roots, but its still great for the world.",
-      "reply": "I think it's fine to applaud their pro open source behavior, while still being critical of the ill they've released upon society. Cambridge Analytica and spreading mob violence in some countries come to mind."
+      "replies": [
+         "I think it's fine to applaud their pro open source behavior, while still being critical of the ill they've released upon society. Cambridge Analytica and spreading mob violence in some countries come to mind."
+      ]
    },
    {
+      "id": "google",
       "post": "Google Is Tracking You Even in Incognito Mode, New Disclaimer Is Up",
-      "reply": " really do not like Google as a company, but this is one of those cases where I agree with them. It was always clear that websites could track you in incognito mode. Somehow people thinking that Google is not a website that can do that does not make it Google's fault. You still have to accept Google's cookie banner when opening the site in incognito, giving another indication they track you."
+      "replies": [
+         " really do not like Google as a company, but this is one of those cases where I agree with them. It was always clear that websites could track you in incognito mode. Somehow people thinking that Google is not a website that can do that does not make it Google's fault. You still have to accept Google's cookie banner when opening the site in incognito, giving another indication they track you.",
+         "I thought it was well understood that \"private\" mode in browsers relates to what your local machine records about where you visit.\n                    I didn't even think that a web site could know you were in that mode, let alone honour it.",
+         "Incognito mode is supposed to not send your regular cookies so sites shouldn't be able to track you unless they use dubious stealthy tricks rather than the explicit well-known and documented method (i.e. a cookie). While I know that it's possible, I think it's morally despicable and I expect better from established (and ostensibly honorable) companies like Google.\n            The fact that they now basically say \"cookies or not, we're gonna track you anyway\" sounds to me like another step in the downfall of Google\n            "
+      ]
    },
    {
-      "post": "Google Is Tracking You Even in Incognito Mode, New Disclaimer Is Up",
-      "reply": "I thought it was well understood that \"private\" mode in browsers relates to what your local machine records about where you visit.\n                    I didn't even think that a web site could know you were in that mode, let alone honour it."
+      "id": "BrainGPT",
+      "post": "BrainGPT turns thoughts into text",
+      "replies": [
+         "It s crazy to me that someone has developed a technology that literally reads peoples mind fairly accurately and its just like a semi popular post on Hacker News."
+      ]
    },
    {
-      "post": " Google Is Tracking You Even in Incognito Mode, New Disclaimer Is Up\n\n                    I thought it was well understood that \"private\" mode in browsers relates to what your local machine records about where you visit.\n                    I didn't even think that a web site could know you were in that mode, let alone honour it\n                ",
-      "reply": "\n            Incognito mode is supposed to not send your regular cookies so sites shouldn't be able to track you unless they use dubious stealthy tricks rather than the explicit well-known and documented method (i.e. a cookie). While I know that it's possible, I think it's morally despicable and I expect better from established (and ostensibly honorable) companies like Google.\n            The fact that they now basically say \"cookies or not, we're gonna track you anyway\" sounds to me like another step in the downfall of Google\n            "
+      "id": "nuclear-fusion",
+      "post": "US nuclear-fusion lab enters new era: achieving 'ignition' over and over",
+      "replies": [
+         "Can somebody explain, what exactly is ignition? If even a single helium atom is fused you have more energy than you have put into it. That does not seem impressive.",
+         "Next step: achieving the actual energy break even instead of laser energy break even. That'll require improving it by an order of magnitude."
+      ]
    },
    {
-      "post": "Google Is Tracking You Even in Incognito Mode, New Disclaimer Is Up",
-      "reply": "bh, I'm surprised it's taken this long for a) Google to publicly admit it, and b) for people to understand that it doesn't hide or erase your digital footprints online so Google, your ISP and every agent in between is well aware of what you're doing online. In fact, I believe most people still don't understand (b)."
+      "id": "police",
+      "post": "Suspects can refuse to provide phone passcodes to police, court rules",
+      "replies": [
+         "I can't even understand why this was even still up for debate - 5th amendment allows you to not incriminate yourself - being forced to give up your passcode is no different then being forced to give up any secrets you might have.\n                 Not sure why this hasn't been slapped down a long, long time ago.",
+         "Never store anything incriminating on your phone. How hard can it be. Your phone is never your friend.\n              A compact Linux device without any biometrics, telemetry, public clouds and corporate spying software is probably what you could be looking for."
+      ]
    }
 ]
