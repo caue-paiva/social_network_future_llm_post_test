@@ -16,8 +16,8 @@ with a as (
 , counts as (
 	select
 		* 
-		, cast(upvotes as float)/(upvotes + downvotes) as upvote_probability
-		, cast(upvotes as float)/(upvotes + downvotes + ignores) as upvote_rate
+		, round(cast(upvotes as float)/(upvotes + downvotes),2) as upvote_probability
+		, round(cast(upvotes as float)/(upvotes + downvotes + ignores),2) as upvote_rate
 	from a
 )
 , overall_counts as (
@@ -30,8 +30,8 @@ select
 	, counts.upvote_rate
 	, overall_counts.upvote_probability as overall_upvote_probability
 	, overall_counts.upvote_rate as overall_upvote_rate
-	, abs(counts.upvote_probability - overall_counts.upvote_probability) / overall_counts.upvote_probability as upvote_probability_change_pct
-	, abs(counts.upvote_rate - overall_counts.upvote_rate) / overall_counts.upvote_probability as upvote_rate_change_pct
+	, round(abs(counts.upvote_probability - overall_counts.upvote_probability) / overall_counts.upvote_probability * 100,2) as upvote_probability_change_pct
+	, round(abs(counts.upvote_rate - overall_counts.upvote_rate) / overall_counts.upvote_probability * 100,2) as upvote_rate_change_pct
 from counts
 join overall_counts on (counts.post_id = overall_counts.post_id)
 where counts.reply_num is not null;
