@@ -4,6 +4,9 @@ virtualenv:
 
 run:
 	python3 llm_post_feedback.py | tee llm_simulation_out.txt
+	just stats
+
+stats:
 	rm -f llm_simulation_out.sqlite
 	sqlite3 llm_simulation_out.sqlite < stats.sql
 
