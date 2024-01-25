@@ -138,8 +138,13 @@ def run_llm_simulation(posts:list[str], personas:list[str], to_file = False, wri
                     function_call = "auto"
                 )
 
+
+                if function_llm_response.choices[0].message.function_call == None:
+                    print("func_call_args is None for ", post_id, " ", persona["name"], " ", reply_num, file=sys.stderr)
+                    continue;
+
                 func_call_args: dict = json.loads(function_llm_response.choices[0].message.function_call.arguments)
- 
+
                 vote:int = int(func_call_args["vote"])
 
                 i = 0 if reply_num == None else reply_num + 1
